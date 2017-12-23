@@ -21,6 +21,8 @@ def adder(z):
 adder(zls)
 
 print len(set(ls))
+print set(ls)
+print set(d.keys()) - set(ls)
 groups = []
 for k in d:
     ls = [k]
